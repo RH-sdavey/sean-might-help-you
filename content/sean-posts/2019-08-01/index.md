@@ -7,7 +7,7 @@ tags:
     - vim
     - swhy
 
-cover: "https://unsplash.it/1280/900/?random?"
+cover: "https://picsum.photos/id/308/2500/1000"
 ---
 
 

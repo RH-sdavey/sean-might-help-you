@@ -1,6 +1,6 @@
 ---
 title: "Welcome! If this is your first time on SWHY, take a look here!"
-cover: "https://unsplash.it/1280/900/?random?TheFallenTime"
+cover: "https://unsplash.it/1280/900/?random"
 author: "Endless"
 date: "2999-10-19"
 category: "swhy"

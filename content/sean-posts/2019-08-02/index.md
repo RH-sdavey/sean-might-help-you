@@ -1,6 +1,6 @@
 ---
 title: "How to restart Linux NTPD service"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://picsum.photos/id/357/2500/1000"
 date: "2019-08-02"
 author: "Endless"
 category: "sysadmin"

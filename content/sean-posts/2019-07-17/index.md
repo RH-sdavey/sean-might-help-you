@@ -1,6 +1,6 @@
 ---
 title: "How to read the /etc/passwd file on Linux"
-cover: "https://picsum.photos/id/240/2500/1000"
+cover: "https://picsum.photos/id/336/2500/1000"
 category: "sysadmin"
 author: "Endless"
 date: "2019-07-17"
