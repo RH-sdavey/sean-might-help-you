@@ -18,7 +18,7 @@ function GetNavList(config) {
     config.userLinks.forEach(link => {
       NavList.push({
         primaryText: link.label,
-        // LeftIcon: <FontIcon forceSize iconClassName={link.iconClassName} />,
+        LeftIcon: <FontIcon forceSize iconClassName={link.iconClassName} />,
         component: "a",
         href: link.url
       });
@@ -33,7 +33,7 @@ function GetNavList(config) {
     component: Link,
     to: "/about/"
   });
-  
+
     NavList.push({
     primaryText: "Sean",
     // LeftIcon: <FontIcon>person</FontIcon>,
