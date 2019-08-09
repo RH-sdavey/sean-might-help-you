@@ -5,7 +5,7 @@ module.exports = {
   siteTitle: "Sean Will Help You", // Site title.
   siteTitleAlt: "SWHY", // Alternative site title for SEO.
   siteLogo:
-    "/logos/website-icon.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+    "", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://sean-might-help-you.netlify.com/", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
