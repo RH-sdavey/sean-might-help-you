@@ -11,7 +11,7 @@ module.exports = {
   siteDescription:
     "Welcome to SWHY, Choose a learning path from the menu, or scroll down for our latest tutorials", // Website description used for RSS feeds/meta description tag.
   siteCover:
-    "/images/pic24.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+    "/images/swhy3.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Casper User", // The author name used in the RSS file
