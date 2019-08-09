@@ -11,7 +11,7 @@ module.exports = {
   siteDescription:
     "Welcome to SWHY, Choose a learning path from the menu, or scroll down for our latest tutorials", // Website description used for RSS feeds/meta description tag.
   siteCover:
-    "https://source.unsplash.com/random/4300x2400
+    "https://source.unsplash.com/random/4300x2400"
    //  "https://picsum.photos/id/1002/4312/2868", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
