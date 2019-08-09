@@ -9,10 +9,12 @@
     background: #222 no-repeat center center;
     background-size: cover;
     overflow: hidden;
+    color: red;
 }
 
 .main-header .inner {
     width: 80%;
+    color: red;
 }
 
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
@@ -40,6 +42,7 @@
     min-height: 160px;
     max-height: 40vh;
     background: #f5f8fa;
+    color: red;
 }
 
 .post-head.main-header {
