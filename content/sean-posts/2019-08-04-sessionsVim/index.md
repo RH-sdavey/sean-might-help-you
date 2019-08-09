@@ -91,7 +91,7 @@ and all your tabs and splits are back! woohoo!
 
 So, now try to think which files it would be good to have in a session...
 for example, all configuration files for your system
-- ntp.config
+- /etc/ntp.conf
 - /etc/password
 - /etc/groups
 - /etc/shadow
