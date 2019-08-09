@@ -15,7 +15,7 @@ tags:
 #### Why is this file so important?
 ``/etc/passwd`` is a file used by the system itself to authenticate users and provide information between Linux processes about the user, and their permissions, home folders and the shell the user uses.
 
-❗️ be very careful editing this file ❗️ We will not be editing this file in this tutorial, however you can do some damage to your system by wrongly editing this file, be careful
+❗️ be very careful editing this file We will not be editing this file in this tutorial, however you can do some damage to your system by wrongly editing this file, be careful
 
 so lets take a look at it,
 ```
