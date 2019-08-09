@@ -45,6 +45,7 @@
 .post-head.main-header {
     height: 65vh;
     min-height: 180px;
+    color: red;
 }
 
 .no-cover.post-head.main-header {
@@ -52,11 +53,13 @@
     min-height: 0;
     margin-bottom: 0;
     background: transparent;
+    color: red;
 }
 
 .tag-head.main-header {
     height: 40vh;
     min-height: 180px;
+    color: red;
 }
 
 .author-head.main-header {
@@ -73,6 +76,7 @@
 /* On page2+ make all the headers smaller */
 .paged .main-header {
     max-height: 30vh;
+    color: red;
 }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
