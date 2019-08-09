@@ -34,9 +34,9 @@ module.exports = {
       iconClassName: "fa fa-github" // Disabled, see Navigation.jsx
     },
     {
-      label: "Twitter",
+      label: "Slack",
       url: "https://app.slack.com/client/TLMMVFQ1X/CLVTNC1MM",
-      iconClassName: "fa fa-slack" // Disabled, see Navigation.jsx
+      iconClassName: "fa fa-smugmug" // Disabled, see Navigation.jsx
     },
     {
       label: "Email",

@@ -36,7 +36,7 @@ VIM is open, and displaying the /etc/hosts file
 so lets open some more tabs shall we...
 
 enter escape mode, by pressing `ESC`, then enter the following instruction to VIM,
-> ![tip](./tip.png) you can press the `TAB` key after typing `:tabedit` to show a file selector
+> 👍 you can press the `TAB` key after typing `:tabedit` to show a file selector
 
 `:tabedit <<filename_here>>`
 
@@ -69,9 +69,11 @@ So, lets do a quick walkthrough of the most commonly used ones,
 -  `:tabs` will show you a list of all open tabs
 -  `:tabclose!` will close the current tab
 
-> ![tip](./tip.png)
-> -  you can also use `g` `t` in escape mode instead of typing `:tabnext`
-> - and `g` `T` instead of `:tabprevious`
+> 👍 you can also use
+>
+>  `g` `t` in escape mode instead of typing `:tabnext`
+>
+> `g` `T` instead of `:tabprevious`
 
 That's how to work with multiple tabs in VIM, if you have any questions or comments, please feel free to leave them below.
 
