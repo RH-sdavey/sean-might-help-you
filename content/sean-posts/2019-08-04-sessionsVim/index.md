@@ -57,7 +57,7 @@ Now you have all your splits and tabs opened, simply go to "escape mode" by pres
 >```
 :!mkdir ~/.vim/sessions/
 ```
-and then try the mksession command again
+> and then try the mksession command again
 
 
 now that we have a session created (you can check it with this command in escape mode)
