@@ -8,93 +8,7 @@ NOTE: This is a Gatsby v2 fork of [gatsby-starter-casper](https://github.com/hay
 
 # Gatsby Casper Starter
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5388013f-ceda-4ecc-95fe-187dee925433/deploy-status)](https://app.netlify.com/sites/swhy/deploys)
-[![Code Climate](https://codeclimate.com/github/haysclark/gatsby-starter-casper/badges/gpa.svg)](RH-sdavey/sean-will-help-you)
-[![Issue Count](https://codeclimate.com/github/haysclark/gatsby-starter-casper/badges/issue_count.svg)](RH-sdavey/sean-will-help-you)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-A blog starter for [Gatsby](https://github.com/gatsbyjs/gatsby/), utilizing the popular [Casper (v1.4)](https://github.com/TryGhost/Casper/tree/1.4) theme authored by [Ghost.io](https://ghost.io/).  The project is based on [Gatsby Advanced Starter](https://github.com/Vagr9K/gatsby-advanced-starter) and has a lot on common with the [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter), but will evolve separately. In this project the single Casper CSS file has been carefully extracted into individual components with only minor tweaks.
-
-This starter also serves as example for the [Gatsby-Pagination](https://github.com/infinitedescent/gatsby-pagination) library.
-
-[Demo website.](https://haysclark.github.io/gatsby-starter-casper/)
-
-![Screenshot](docs/screenshot.png)
-
-## Features
-
-* Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
-* Separate components for everything
-* High configurability:
-  * Site information
-  * Site social profiles
-  * Copyright information
-  * More!
-* Author segment
-  * Name
-  * Location
-  * Description
-  * Links
-  * Follow Me button
-  * Social profiles
-* Posts in Markdown
-  * Code syntax highlighting
-  * Embed YouTube videos
-  * Embed Tweets
-  * Pages support pagination
-  * Read More linked paginated pages  
-* Tags
-  * Separate page for posts under each tag
-  * Pages support pagination.
-* Categories (pages generated but not linked in theme)
-  * Separate page for posts under each category
-* Disqus support (needs to be uncommented)
-  * Notifications about new disqus comments
-* Google Analytics support
-* NPM scripts for GitHub Pages deployment
-* Social features (uncomment code to use)
-  * Twitter tweet button
-  * Facebook share/share count
-  * Google+ share button
-  * easily to add more!
-* SEO
-  * Sitemap generation
-  * robots.txt
-  * General description tags
-  * Schema.org JSONLD (Google Rich Snippets)
-  * OpenGraph Tags (Facebook/Google+/Pinterest)
-  * Twitter Tags (Twitter Cards)
-* RSS feeds
-* Loading progress for slow networks
-* Offline support
-* Web App Manifest support
-* Development tools
-  * ESLint for linting
-  * Prettier for code style
-  * Remark-Lint for linting Markdown
-  * write-good for linting English prose
-  * gh-pages for deploying to GitHub pages
-  * CodeClimate configuration file and badge
-
-NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter) if you are interested in a more opinionated starter with Material Design in mind.
-
-## Getting Started
-
-Install this starter (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed) by running from your CLI:
-
-```sh
-gatsby new YourProjectName https://github.com/haysclark/gatsby-starter-casper
-gatsby develop
-```
-
-Alternatively, you can clone the repo or a fork of the repo and install it manually.
-
-```sh
-git clone https://github.com/haysclark/gatsby-starter-casper YourProjectName # Clone the project
-cd YourProjectname
-rm -rf .git # Optional, you can leave the .git history for future rebasing
-npm install # or yarn install
-npm run develop # or gatsby develop
-```
 
 ## Configuration
 
@@ -154,16 +68,6 @@ npm run develop # or gatsby develop
    };
  ```
 
- You can also optionally set `pathPrefix`:
- ```js
- module.exports = {
-  // Note: it must *not* have a trailing slash.
-       pathPrefix: '/gatsby-starter-casper', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
-}
-
- ```
-
- WARNING: Make sure to edit `static/robots.txt` to include your domain for the sitemap!
 
 ## Content
 
@@ -179,7 +83,6 @@ Each post can reference the author of the post, if the author is not set the def
 
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
-The project uses [Conventional Commits](https://conventionalcommits.org/) which are simple and easy to follow. In general, use your best judgment, and feel free to propose changes by creating an issue and then mention the issue in your pull request.
 
 ## License
 
