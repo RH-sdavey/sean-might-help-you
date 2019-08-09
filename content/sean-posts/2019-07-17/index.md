@@ -1,6 +1,6 @@
 ---
 title: "How to read the /etc/passwd file on Linux"
-cover: "https://unsplash.it/1152/300/?random"
+cover: "https://picsum.photos/id/240/2500/1000"
 category: "sysadmin"
 author: "Endless"
 date: "2019-07-17"
@@ -41,18 +41,18 @@ so we have a line of text, one line of text per row, (each row contains informat
 
 on each line we have words, letters and numbers seperated by a symbol ``:``. Here it is a little clearer,
 ```
-cat /etc/passwd | sed 's/:/ : /g' | head
+cat /etc/passwd | sed 's/:/    /g' | head
 
-root : x : 0 : 0 : root : /root : /bin/bash
-bin : x : 1 : 1 : bin : /bin : /sbin/nologin
-daemon : x : 2 : 2 : daemon : /sbin : /sbin/nologin
-adm : x : 3 : 4 : adm : /var/adm : /sbin/nologin
-lp : x : 4 : 7 : lp : /var/spool/lpd : /sbin/nologin
-sync : x : 5 : 0 : sync : /sbin : /bin/sync
-shutdown : x : 6 : 0 : shutdown : /sbin : /sbin/shutdown
-halt : x : 7 : 0 : halt : /sbin : /sbin/halt
-mail : x : 8 : 12 : mail : /var/spool/mail : /sbin/nologin
-operator : x : 11 : 0 : operator : /root : /sbin/nologin
+root    x    0    0    root    /root    /bin/bash
+bin    x    1    1    bin    /bin    /sbin/nologin
+daemon    x    2    2    daemon    /sbin    /sbin/nologin
+adm    x    3    4    adm    /var/adm    /sbin/nologin
+lp    x    4    7    lp    /var/spool/lpd    /sbin/nologin
+sync    x    5    0    sync    /sbin    /bin/sync
+shutdown    x    6    0    shutdown    /sbin    /sbin/shutdown
+halt    x    7    0    halt    /sbin    /sbin/halt
+mail    x    8    12    mail    /var/spool/mail    /sbin/nologin
+operator    x    11    0    operator    /root   /sbin/nologin
 ```
 #### Woah woah woah, where is there so many users on my system?
 Dont worry 😁 Essentially there are only two users you need to worry about, "you" and "root".
