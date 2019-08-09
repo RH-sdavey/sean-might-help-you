@@ -57,18 +57,21 @@ Now you have all your splits and tabs opened, simply go to "escape mode" by pres
 >```
 :!mkdir ~/.vim/sessions/
 ```
-> and then try the mksession command again
+and then try the mksession command again
 
-now that we have a session created ( you can check it with this command in escape mode)
+
+now that we have a session created (you can check it with this command in escape mode)
+
 ```
 :!ls ~/.vim/sessions/
 ```
+
 output:
 ![ls](ls.png)
 
 we can close vim, and go have a cup of coffee...we did it!
 
-## Well how to get that session back?
+## Well how do I get that session back?
 
 Oh thats easy...
 you can do it in one of two ways
@@ -82,6 +85,7 @@ vim -S ~/.vim/sessions/session_name_here.vim
 ```
 
 and all your tabs and splits are back! woohoo!
+![homer](homer.jpg)
 
 
 So, now try to think which files it would be good to have in a session...
