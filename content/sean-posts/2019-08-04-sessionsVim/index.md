@@ -53,10 +53,11 @@ Now you have all your splits and tabs opened, simply go to "escape mode" by pres
 ```
 :mksession ~/.vim/session/session_name_here.vim
 ```
+
 > 👍 TIP: if the ~/.vim/sessions/  directory doesnt exist, you can create it without leaving VIM! heres how, (in "escape mode")
 >```
-:!mkdir ~/.vim/sessions/
-```
+>:!mkdir ~/.vim/sessions/
+>```
 > and then try the mksession command again
 
 
