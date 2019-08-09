@@ -3,7 +3,6 @@
 </div>
 
 # Sean Will Help You
-> NOTE: This is a Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). 
 
 # Build Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5388013f-ceda-4ecc-95fe-187dee925433/deploy-status)](https://app.netlify.com/sites/swhy/deploys)
@@ -46,3 +45,6 @@ TODO
 ## License
 
 MIT
+
+> NOTE: This is a Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). 
+
