@@ -1,7 +1,7 @@
 module.exports = {
   blogPostDir: "sean-posts", // The name of directory that contains your posts.
   blogAuthorDir: "sean-authors", // The name of directory that contains your 'authors' folder.
-  blogAuthorId: "Sean", // The default and fallback author ID used for blog posts without a defined author.
+  blogAuthorId: "casper", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "Sean Will Help You", // Site title.
   siteTitleAlt: "SWHY", // Alternative site title for SEO.
   siteLogo:
