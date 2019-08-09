@@ -101,7 +101,7 @@ class SeanTemplate extends React.Component {
                 </Link>
               </MainHeader>
 
-              <PaginatedContent
+  /*            <PaginatedContent
                 page={page}
                 pages={pages}
                 total={total}
@@ -110,9 +110,9 @@ class SeanTemplate extends React.Component {
                 next={next}
               >
                 {/* PostListing component renders all the posts */}
-                <PostListing postEdges={nodes} postAuthors={authorsEdges} />
+/*                <PostListing postEdges={nodes} postAuthors={authorsEdges} />
               </PaginatedContent>
-            </div>
+ */            </div>
 
             {/* The tiny footer at the very bottom */}
             <Footer
