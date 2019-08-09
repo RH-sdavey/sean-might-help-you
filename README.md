@@ -14,15 +14,15 @@ A free linux tutorial website run by Sean.
 I have lots of ideas for tutorials and learning paths for users, now all I need is time/help to build it.
 
 - If you want to report a bug/feaure about the site, use the issues tab above
-- create a task in the projct page above
-- if you can help me out with creating content I would appreciate that
+- You can also create a task in the projct page above
+- If you can help me out with creating content I would appreciate that
 - I will be putting contribution info in the wiki when I get a chance
 - I wont be taking any money through advertisements for the site, but may consider patreon in the future for donations
 
 
 ## Configuration
 
-The site is configured by me, Sean. I dont need any help with that, and won't accept any PR that try to update my current configuration. If you feel something could be improved, please open an issue.
+The site is configured by me, Sean. I dont need any help with that, and won't accept any PR that try to update my current configuration. If you feel something could be improved, please open an issue and I will consider implementing that
 
 
 ## Content
