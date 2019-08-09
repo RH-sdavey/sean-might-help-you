@@ -14,7 +14,7 @@ tags:
 
 # How do I restart NTPD service on a Linux based operating system?
 
-### After changes of the NTP configuration file (usually ntp.conf) the NTP service needs to be restarted.
+### After changes to the NTP configuration file (usually ntp.conf) the NTP service needs to be restarted.
 The exact command depends on your Linux distribution.
 
 
