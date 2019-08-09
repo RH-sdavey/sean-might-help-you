@@ -20,7 +20,7 @@ So lets get to it,
 
 This will be a Linux bash script, so you can write this script in any linux based text editor you like, I will be using one called Vim but gedit will be fine
 
-So first we nee a file, lets create a file called "get_user_info.sh" in your home directory
+So first we need a file, lets create a file called "get_user_info.sh" in your home directory
 
 ```
  cd ~ ; touch get_user_info.sh
