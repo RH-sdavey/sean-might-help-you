@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import Sean from "../components/Sean/Sean";
 import config from "../../data/SiteConfig";
 
-class AboutPage extends Component {
+class SeanPage extends Component {
   render() {
     return (
       <div className="sean-container">
