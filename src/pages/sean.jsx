@@ -19,7 +19,7 @@ import PaginatedContent from "../components/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 import Layout from "../components/layout";
 
-class IndexTemplate extends React.Component {
+class SeanTemplate extends React.Component {
   state = {
     menuOpen: false
   };
@@ -128,7 +128,7 @@ class IndexTemplate extends React.Component {
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query IndexQuery {
+  query IndexSean {
     # posts data comes from the context
     # authors
     authors: allAuthorsJson {
@@ -145,4 +145,4 @@ export const pageQuery = graphql`
   }
 `;
 
-export default IndexTemplate;
+export default SeanTemplate;
