@@ -10,7 +10,7 @@ tags:
     - Linux
 ---
 
-### Lets have at a very important file for any sysadmin of a Linux machine, /etc/passwd
+### Lets have a look at a very important file for any sysadmin of a Linux machine, /etc/passwd
 
 #### Why is this file so important?
 ``/etc/passwd`` is a file used by the system itself to authenticate users and provide information between Linux processes about the user, and their permissions, home folders and the shell the user uses.
@@ -83,6 +83,7 @@ Lets take the last line from the output above and break it down, shall we?
 ```
 operator : x : 11 : 0 : operator : /root : /sbin/nologin
 ```
+
 - The first column ( before the first ``:`` ) ``operator`` is the **Username** of that user.
 - The second column ``x`` is quite special, it indicates that your **Password** is encrypted and stored in another file. (As you can see, every row has ``x`` in the 2nd position. It's simply a place-holder for your password. As it would be unsafe to put your password as plain-text in this file, Linux replaces it with `x` and uses another file to read your password, more on that in another tutorial)
 - The third column `11` is the **User ID (UID)** The truth is, the system doesn't really care about your real name or username, rather it uses your UID to identify you for any reason. Some things to know about UID's
