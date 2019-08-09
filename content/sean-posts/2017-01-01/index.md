@@ -1,7 +1,7 @@
 ---
 title: "Bold Mage"
 cover: "https://unsplash.it/1280/500/?random?BoldMage"
-author: "Sean"
+author: "Weez"
 date: "2017-01-01"
 category: "tech"
 tags:
