@@ -1,7 +1,6 @@
 import React, { Component, createElement, isValidElement } from "react";
 import GetNavList from "./GetNavList";
 import "./Navigation.css";
-import SubscribeButton from "../SubscribeButton/SubscribeButton";
 
 const Divider = () => null;
 
@@ -56,7 +55,6 @@ class Navigation extends Component {
             <span className="hidden">Close</span>
           </a>
           <ul>{navItems.map(mapToListParts)}</ul>
-          <SubscribeButton url={config.siteRss} />
         </div>
         <span className="nav-cover" />
       </div>
