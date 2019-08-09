@@ -1,4 +1,4 @@
-// import FontIcon from "react-md/lib/FontIcons";
+import FontIcon from "react-md/lib/FontIcons";
 import { Link } from "gatsby";
 
 function GetNavList(config) {
