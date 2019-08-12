@@ -7,7 +7,7 @@ category: "swhy"
 tags:
     - First-time
     - Welcome
-    - swhy
+    - Swhy
 ---
 
 

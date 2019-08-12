@@ -5,8 +5,8 @@ category: "sysadmin"
 author: "Endless"
 date: "2019-08-04"
 tags:
-    - sysadmin
-    - easy
+    - Sysadmin
+    - Easy
     - Linux
     - Vim
 ---

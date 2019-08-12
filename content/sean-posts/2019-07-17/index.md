@@ -5,8 +5,8 @@ category: "sysadmin"
 author: "Endless"
 date: "2019-07-17"
 tags:
-    - sysadmin
-    - easy
+    - Sysadmin
+    - Easy
     - Linux
 ---
 

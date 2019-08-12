@@ -1,13 +1,13 @@
 ---
-title: "Windows: create script to open webpages automatically"
+title: "Windows: Create a script to open webpages automatically"
 cover: "https://picsum.photos/id/1048/2500/1000"
 category: "sysadmin"
 author: "Endless"
 date: "2019-06-17"
 tags:
-    - sysadmin
-    - easy
-    - windows
+    - Sysadmin
+    - Easy
+    - Windows
     - Chrome
 ---
 

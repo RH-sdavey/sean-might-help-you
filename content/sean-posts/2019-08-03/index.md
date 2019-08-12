@@ -5,8 +5,8 @@ category: "sysadmin"
 author: "Endless"
 date: "2019-08-03"
 tags:
-    - sysadmin
-    - medium
+    - Sysadmin
+    - Medium
     - Linux
     - Scripting
 ---

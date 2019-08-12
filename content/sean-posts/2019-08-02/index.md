@@ -5,11 +5,11 @@ date: "2019-08-02"
 author: "Endless"
 category: "sysadmin"
 tags:
-    - ntpd
-    - ntp
-    - services
-    - linux
-    - easy
+    - Ntpd
+    - Ntp
+    - Services
+    - Linux
+    - Easy
 ---
 
 

@@ -4,8 +4,8 @@ category: "VIM"
 author: "Endless"
 date: "2019-08-01"
 tags:
-    - vim
-    - swhy
+    - Vim
+    - Swhy
 
 cover: "https://picsum.photos/id/308/2500/1000"
 ---
