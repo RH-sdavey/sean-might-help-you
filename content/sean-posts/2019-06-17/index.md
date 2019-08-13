@@ -33,7 +33,7 @@ lets break it down,
 - "" = with no extra environment variables
 - "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" = chrome application, (you could use IE or Firefox also, all you need is the full path to that on your system)
 - "--start-maximized --incognito"  = start Chrome maximized and in incognito mode ( these are optional )
-- \<website= here\>  = a website you wish to open (eg:  https://reddit.com https://google.com https://stackoverflow.com)
+- \<website here\>  = a website you wish to open (eg:  https://reddit.com https://google.com https://stackoverflow.com)
 
 > 👍 because of some issues with google searches and some websites not opening correctly, I would recommend to copy and paste the whole line and replace the website for each site you want to open, its not the most efficient way, but seems to solve a lot of problems. They should all open in the same Chrome window. See the example below if needed.
 
