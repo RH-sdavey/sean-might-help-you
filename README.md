@@ -40,7 +40,7 @@ Each post can reference the author of the post, if the author is not set the def
 
 ## Contributing
 
-👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+👍🎉 First off, thanks for taking the time to contribute! 🎉👍 <br/>
 see [HERE](CONTRIBUTING.md) for some tips with how to start contributing. (and thanks again)
 
 ## License
