@@ -4,6 +4,7 @@ First of all, thanks, any help is massively appreciated. I cant pay in cash real
 I am open to discussion about payments if you can guarantee a regular contribution... but Im hoping you wont consider cash as the main incentive here.
 
 ## So Why should I help?
+
 Well first of all, 
 - just because its nice. Nice to help me, nice to help people who need help online. It just feels nice. Its nice to feel nice.
 - It will look pretty freaking cool on your CV that youre a "regular contributor" or "content-creator" for an open-source Linux tutorial website, teaching others how to learn sysadmin/developer/devops/scrum skills. I will add you to a contributors list both on the site and here on GH, so you have proof of your contributions.
@@ -14,6 +15,7 @@ Well first of all,
 - You might learn something from the very site you are contributing to! 
 
 ## Ok Ok, shut up , lets get started!
+
 First of all, you need to create an "author" profile 
 (if not, the default "Sean" author (not me, the 'website Sean', my username is "Endless") will be used)
 
@@ -32,6 +34,7 @@ Change the "url" and "socialUrls" boxes to your own if you wish, or leave them a
 
 
 ## I am an author, lets write content!
+
 Perfect, so, next we need some content, if you have some ideas, then great lets get started, if you have no ideas or want some easy start to figure out how to get started, 
 (shhhh...."borrow" something from these sites) <br/>
 <a href="https://opensource.com/tags/linux">opensource</a><br/>
@@ -43,6 +46,7 @@ Perfect, so, next we need some content, if you have some ideas, then great lets 
         <a href="https://vim.fandom.com/wiki/Vim_Tips_Wiki/">vim hints</a><br/>
         
 ### How to write content?
+
 Well the tutorials are written in Markdown. Heres everything you need to know about Markdown.... <br/>
 [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)<br/>
 [markdown emojis](https://gist.github.com/rxaviers/7360908)  <--- copy and paste the actual emoji to your text... dont use the "code"
@@ -76,12 +80,25 @@ Every tutorial has a "header" that is parsed by some backend script and helps cr
 ![header](header_example.JPG)
 
 - First line is the title displayed on the list of tutorials and tutorial page when its opened
-- cover line come from the website shown : "picsum.photos" you can choose any picture there, they are all open source and free to use, but please use the size /2500/100 ( see example above ) 
+- cover: url comes from the website shown : "picsum.photos" you can choose any picture there, they are all open source and free to use, but please use the size /2500/100 ( see example above ) (there is a cool trick to either have the same pic every time, or to update the picture every time the tutorial page is refreshed, ask me if you cant figure it out from my examples, tip: check out the welcome page in "content/sean-posts/2999-10-19" for a clue ;) )
 - choose a category "sysadmin "developer" "devops" or "scrummaster"
 - author: make this EXACTLY the same to the uid of your author profile
-- date: make this IDENTICAL to the folder that your tutorial is in. Be aware that the order of the dates in these folders determines the order of the tutorials on the site. Thats why there is one tutorial in year 2999 that will always be top of the list.
+- date: make this IDENTICAL to the folder that your tutorial is in. Be aware that the order of the dates in these folders determines the order of the tutorials on the site. Thats why there is one tutorial in year 2999 that will always be top of the list. Its not possible to have two tutorials on the same day, I dont think this is a problem.
 - tags : a list of tags, please copy an existing example. This will be displayed on the site, and users can click on the these tags to find similar posts. For example if you tag post with "Vim" or "easy", then users can click on those tags and see other "Vim" or "Easy Tutorials". Please have at least always a "easy" "medium" "hard" or "expert" tag.
  all headers are surrounded with three "---" at the top and bottom, (see example above)
+ 
+ ## How can I add pictures and screenshots?
+ 
+ take a snip of the screenshot, generally you can make it as large as you wish, as the page will automatically resize images to a standard size. anyway if youre using a decent IDE you can preview the images you add.
+ See already existing tutorials code for how to implement screenshots into your tutorials, I have a few examples ( including this document you are readng now ) 
+ 
+ A lot of cool pictures that can break up the text a little can be found [here](https://picsum.photos/images) See my tutorial examples of how to embed pictures from this site.
+ 
+ ## and those "tip" boxes?
+ 
+ If you want to create a "tip" or "hint" for the user to do something in a quicker/more efficient or better way, or a keyboard shortcut to do something then put it inside a "blockquote" ( see the markdown cheatsheet) and copy the thumbsup emoji (the actual emoji, not the code) as the first thing inside the blockquote... and then your tip
+ 
+ 
  
  ## Right, so I hve an author, I can create posts, how can I get them to you Sean?
  
@@ -109,6 +126,7 @@ This will automatically create a ticket on my project board, which you can see b
 No problem! have a nice day, if you think of any else who may want to help, please show them the site/this file or the [request-for-help-site](https://gracious-bell-9a0cdc.netlify.com/) and maybe they can help. Id really like this site to be popular, and it really depends on the amount of content to begin with so any help is appreciated.
 
 ### Thanks for reading if you got this far! I'm looking forward to any collaboration with you!
+
 Subjects I need for tutorials....
 - anything IT! linux / bash / vim / jenkins / networking / ansible / docker / java / sed / awk / scripting / command line tips and tricks / python / groovy / make files / maven / middleware / ethical hacking / network admin / rhcsa / rhce / windows / chrome extensions / keyboard shortcuts / IDE tips / C, C#, C++  / SQL / Jira / Markdown / Kubernetes / Cockpit / PowerShell / GIT / JavaScript / HTML / CSS
 - Literally anything IT that you know, and you think could be useful for somebody else. Even if you just search Stackoverflow for the most common questions and make a tutorial for that subject, it would help a lot!
