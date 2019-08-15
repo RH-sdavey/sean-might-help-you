@@ -8,14 +8,15 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5388013f-ceda-4ecc-95fe-187dee925433/deploy-status)](https://app.netlify.com/sites/swhy/deploys)
 
 ## Hello! 
+
 This is the github repo for https://swhy.netlify.com/ (Sean Will Help You)
 A free linux tutorial website run by Sean. 
 I have lots of ideas for tutorials and learning paths for users, now all I need is time/help to build it.
 
 - If you want to report a bug/feaure about the site, use the issues tab above
-- You can also create a task in the projct page above
+- You can also create a task in the project page above
 - If you can help me out with creating content I would appreciate that
-- I will be putting contribution info in the wiki when I get a chance
+- I will be putting contribution info in the wiki when I get a chance *edit* see [here](CONTRIBUTING.md) for details how to contribute
 - I wont be taking any money through advertisements for the site, but may consider patreon in the future for donations
 
 
@@ -28,7 +29,7 @@ The site is configured by me, Sean. I dont need any help with that, and won't ac
 
 ### Posts
 
--Posts are authored using Markdown and include some optional YAML frontmatter data properties. Please copy and paste these data properties from another existing page and edit appropriately. ( TODO put here info how to do that ) 
+-Posts are authored using Markdown and include some optional YAML frontmatter data properties. Please copy and paste these data properties from another existing page and edit appropriately. 
 
 Each post should have a separate folder for the .md file in addition to any images or other media related to that post.  Posts are stored in a subfolder in the ```/content/``` directory; the target subfolder is set by the _blogPostDir_ property in _SiteConfig.js_.
 Currently ```sean-posts```
@@ -45,6 +46,3 @@ see [HERE](CONTRIBUTING.md) for some tips with how to start contributing. (and t
 ## License
 
 MIT
-
-> NOTE: This is a Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). 
-
