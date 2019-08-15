@@ -96,11 +96,14 @@ Every tutorial has a "header" that is parsed by some backend script and helps cr
  
  ## and those "tip" boxes?
  
- If you want to create a "tip" or "hint" for the user to do something in a quicker/more efficient or better way, or a keyboard shortcut to do something then put it inside a "blockquote" ( see the markdown cheatsheet) and copy the thumbsup emoji (the actual emoji, not the code) as the first thing inside the blockquote... and then your tip
+ If you want to create a "tip" or "hint" for the user to do something in a quicker/more efficient or better way, or a keyboard shortcut to do something then put it inside a "blockquote" 
+> 👍 Like this 
+ 
+ ( see the markdown cheatsheet) and copy the thumbsup emoji (the actual emoji, not the code) as the first thing inside the blockquote... and then your tip
  
  
  
- ## Right, so I hve an author, I can create posts, how can I get them to you Sean?
+ ## Right, so I have an author, I can create posts, how can I get them to you Sean?
  
  well its a simple workflow to be honest, you should
  - fork or clone this repo. (ask me directly if you dont know how) 
@@ -113,16 +116,18 @@ Every tutorial has a "header" that is parsed by some backend script and helps cr
  - I will review it/check for English/formatting/suggestions etc and if all netlify and my checks are green, I will merge it to master
  - it then goes through a "publishing check" in netlify and if all passes in the CI, 
  - you will see the changes in ~2 minutes on the website [swhy](https://swhy.netlify.com)
- - Happy days.
+ - Happy days. If you need any help, contact me directly, or in the slack room. No problem.
  
  Im cloning the repo and editing in Atom ( and trying out 'Visual Studio Code' ) just FYI.
 
 ## I dont want to help with content, but I have some ideas or some bug I found....
+
 OK, no worries about not wanting to help, I understand you are busy, dont have time, want to relax away from your computers. no stress from me and no problem.
 If you have some ideas or bug you found, please submit an "issue" on this repo, ( "Issues" tab above ) and write me an issue, please assign me, and also please assign the "sean-will-help-you" project,
 This will automatically create a ticket on my project board, which you can see by clicking on "Projects" tab above, actually this projects tab is maybe a better way of creating tasks for me to do, as I check that more often than the issues.
 
 ## I wont do any of this, I dont want to help
+
 No problem! have a nice day, if you think of any else who may want to help, please show them the site/this file or the [request-for-help-site](https://gracious-bell-9a0cdc.netlify.com/) and maybe they can help. Id really like this site to be popular, and it really depends on the amount of content to begin with so any help is appreciated.
 
 ### Thanks for reading if you got this far! I'm looking forward to any collaboration with you!
