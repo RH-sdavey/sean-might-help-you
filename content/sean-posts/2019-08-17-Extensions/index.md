@@ -1,5 +1,5 @@
 ---
-title: "How to make a google chrome extension"
+title: "How to make a Google Chrome extension"
 cover: "https://picsum.photos/id/249/2500/1000"
 category: "developer"
 author: "Endless"
@@ -12,10 +12,10 @@ tags:
 # Google Chrome extensions are awesome, lets make one together!
 
 As we saw in [THIS](https://swhy.netlify.com/windows-create-a-script-to-open-webpages-automatically) previous tutorial,
-its possible to create a script to automatically open up multiple tabs in google chrome automatically. Easy right? and
+it's possible to create a script to automatically open up multiple tabs in Google Chrome automatically. Easy right? and
 very very useful for your daily work or to bring up your favourite websites quickly.
 
-(Tutorial for how to do this Linux coming soon...)
+(Tutorial for how to do this in Linux coming soon...)
 
 BUT... what if we don't need a "script" to do that? a script that is dependent on which OS we run it on. What if...
 we can create an extension for Google Chrome, that will run on any Operating System...
@@ -25,7 +25,7 @@ we can create an extension for Google Chrome, that will run on any Operating Sys
 
 Lets create a Chrome extension that will open all our favourite websites at the push of a button...
 
-To make our extension we need 3files, this "could" be cut down to 2... but to keep everything clear lets stay with 3. Create 3 files in any folder on your system... "Documents/sean-extension" for me.
+To make our extension we need 3 files, this "could" be cut down to 2... but to keep everything clear lets stay with 3. Create 3 files in any folder on your system... "Documents/sean-extension" for me.
 
 - manifest.json
 - popup.html
@@ -59,7 +59,7 @@ This is the file that allows our extension to be loaded by Google Chrome, if the
 - description  -> put your extension description there
 - version  -> keep it as "1.0"
 - author -> put your name there
-- default_icon  -> ah, you will need 4 files, sorry! find or create a png file that will be the icon for your extension, and it must be exactly 24x24 px Here's mine.. ![icon](icon.png), you can just take that if you wish, it looks like this in Chrome..
+- default_icon  -> ah, you will need 4 files, sorry! find or create a png file that will be the icon for your extension, and it must be exactly 24x24 px Here's mine.. ![icon](icon.png) you can just take that if you wish,( right click and press save pictures as, and save it to the same folder) . It looks like this in Chrome..
 ![toolbar](toolbar.JPG)
 - icons -> same as "default_icon"
 - default_popup -> this is the "window" that will appear when we click on the extension button
@@ -95,10 +95,13 @@ This is the file that creates the window that is loaded when we press the button
 I wont explain the whole code to you there, but two most important lines are...
 ```html
 <script src="popup.js"></script>
+```
 and
+```html
 <button id="daily"></button>
 ```
-The first line will source a script, (that's the next part of this tutorial..)
+The first line will source a script called `popup.js`, (that's the next part...)
+
 and the second line creates a button in our extension with an id of "daily"  ( as in the daily webpages we visit, daily )
 
 last file...
@@ -177,6 +180,9 @@ Super easy...
 ok, here we go....
 
 ![tabs](tabs.JPG)
+
+all the websites I need for my daily work opened in ~1sec by pressing a button...
+![dolla](dolla.png)
 
 ###### Cool, but your tabs are small!
 
