@@ -12,7 +12,7 @@ tags:
 # Google Chrome extensions are awesome, lets make one together!
 
 As we saw in [THIS](https://swhy.netlify.com/windows-create-a-script-to-open-webpages-automatically) previous tutorial,
-it's possible to create a script to automatically open up multiple tabs in Google Chrome automatically. Easy right? and
+it's possible to create a script to automatically open up multiple tabs in Google Chrome. Easy right? and
 very very useful for your daily work or to bring up your favourite websites quickly.
 
 (Tutorial for how to do this in Linux coming soon...)
@@ -59,7 +59,7 @@ This is the file that allows our extension to be loaded by Google Chrome, if the
 - description  -> put your extension description there
 - version  -> keep it as "1.0"
 - author -> put your name there
-- default_icon  -> ah, you will need 4 files, sorry! find or create a png file that will be the icon for your extension, and it must be exactly 24x24 px Here's mine.. ![icon](icon.png) you can just take that if you wish,( right click and press save pictures as, and save it to the same folder) . It looks like this in Chrome..
+- default_icon  -> ah, you will need 4 files, sorry! find or create a png file that will be the icon for your extension, and it must be exactly 24x24 px Here's mine.. ![icon](icon.png) you can just take that if you wish,( right click and press save  image as, and save it to the same folder) . It looks like this in Chrome..
 ![toolbar](toolbar.JPG)
 - icons -> same as "default_icon"
 - default_popup -> this is the "window" that will appear when we click on the extension button
