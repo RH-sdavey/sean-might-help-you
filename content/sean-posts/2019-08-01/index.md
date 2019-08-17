@@ -77,4 +77,5 @@ So, lets do a quick walkthrough of the most commonly used ones,
 
 That's how to work with multiple tabs in VIM, if you have any questions or comments, please feel free to leave them below.
 
-Until next time, **Peace!**
+If Sean Helped You today, feel free to share this post or connect with us soon, available via [gmail](mailto:seanwillhelpyou@gmail.com), [slack](https://app.slack.com/client/TLMMVFQ1X/CLVTNC1MM) or [github](https://github.com/RH-sdavey/sean-will-help-you).
+Thanks for reading!
