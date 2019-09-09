@@ -71,7 +71,7 @@ then let's go back to our very first folder...
 
 #### So what did we do there...?
 
-We used `pushd` to move around various directories in the filesystem, leaving "markers" in each place along our trail. These markers make up a "stack" to which we can keep adding to, or traverse backwards along.
+We used `pushd` to move around various directories in the filesystem, leaving "markers" in each place along our trail. These markers make up a "stack" to which we can keep adding to, or traverse backwards along, using `popd`
 
 #### Ok, why is it useful?
 
