@@ -1,5 +1,5 @@
 ---
-title: "How to use 'case' statement in bash scripting"
+title: "How to use 'case' statements in Bash scripting"
 cover: "https://picsum.photos/id/535/2500/1000"
 category: "Sysadmin"
 author: "Endless"
