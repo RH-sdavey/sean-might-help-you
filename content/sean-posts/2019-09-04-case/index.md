@@ -10,7 +10,7 @@ tags:
     - Bash
 ---
 
-Nested `if` statements (that is, `if`s within `if`s) are cool and all, and will usually do the job nicely, but if your list of `if`s for all possible outcomes gets bigger and bigger, then the code become unreadable quite quickly... case statements to the rescue!
+Nested `if` statements (that is, if statements within if statements) are cool and all, and will usually do the job nicely, but if your list of `if`s for all possible outcomes gets bigger and bigger, then the code become unreadable quite quickly... case statements to the rescue!
 
 `case` is an incredibly useful tool in your scripting arsenal, but so many sysadmins and bash developers don't use it to its full potential. Lets break it down here, and walk through a few of its uses to clear up some confusion,
 
@@ -51,9 +51,9 @@ Lets break it down...  (and dont worry if you dont get it at first look, all wil
 
 - `;;` this symbol will tell `case` that it has finished executing the correct `COMMANDS` for this `CASE` and will now exit the `case` statement altogether. It's a very common mistake to forget to put `;;` at the end of each `CASE` and can case some seriously unwanted code to execute so remember to put it there!
 
-so nothing matched for `CASE1`, what now?
+### `EXPRESSION` didn't match `CASE1`, what now?
 
-well case will continue down the list of cases... so, onto the next `CASE!`
+well `case` will continue down the list of cases... so, onto the next `CASE!`
 
 - `CASE2`)
   - Because no match was made for `CASE1` then `case` will **_not_** execute any of the commands inside the `CASE1` block, and will continue down the list to `CASE2` looking for another match...
@@ -68,7 +68,7 @@ Great question!  thats where this line does its job...
         OTHER COMMANDS HERE
         ;;`
 
-   - The `*` symbol here is considered as a "catch-all", that is to say if `CASE` matched our `EXPRESSION` then `*` will catch it, and any commands within the `*` block will execute. So we know every possible input will be caught somehow. `*` can be used to catch invalid input and return an error message to the user to wise-up ...
+   - The `*` symbol here is considered as a "catch-all", that is to say if no `CASE` matched our `EXPRESSION` then `*` will catch it, and any commands within the `*` block will execute. So we know every possible input will be caught somehow. `*` can be used to catch invalid input and return an error message to the user to wise-up ... (see below)
 
 and ....
 
@@ -96,10 +96,10 @@ No problem my furry little friend..  a picture is worth a 1000 words... so lets 
 
 #### Choices within choices, Options within options....
 
-![example2](example2.jpg)
-
-The code is basically the same as above, just with two minor changes...
+The code here is basically the same as above, just with two minor changes...
 we can also embed `if` statements within `case` statements, to add more functionality to our checks and outputs...
+
+![example2](example2.jpg)
 
 - Above we can see if the user enters for `user_input` the value of "4" then the following code will execute
   - `echo "you chose an even number, NICE!"`
@@ -120,7 +120,7 @@ all I will explain is that "$1" is a bash standard shortcut for the "first value
 ```bash
 my_terminal_prompt:> ./my_awesome_script.sh sean will help you
 ```
-- "my_awesome_script.sh"  = "$0" (the actual script)
+- "my\_awesome\_script.sh"  = "$0" (the actual script)
 - "sean" = "$1" (the first parameter)
 - "will" = "$2" (the second parameter etc etc)
 - "help" = "$3"
