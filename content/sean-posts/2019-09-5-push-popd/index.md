@@ -61,7 +61,7 @@ So Im at the end of my trail here... in `/tmp`
 
 lets use `popd` to go back to our previous point `/c/Users/daveysea/Documents/deleteme/another/stupid/long/path/with/a/few/too/many/subfolders`
 
-its as simple as...
+its as simple as... `popd` !
 
 ![5.jpg](5.jpg)
 
