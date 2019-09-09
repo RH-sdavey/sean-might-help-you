@@ -76,28 +76,31 @@ we can close vim, and go have a cup of coffee...we did it!
 
 Oh thats easy...
 you can do it in one of two ways
+
 - from the command line:
-```
+
+```bash
 vim -S ~/.vim/sessions/session_name_here.vim
 ```
+
 - from inside vim (in "escape mode")
-```
+
+```bash
 :source ~/.vim/sessions/session_name_here.vim
 ```
 
 and all your tabs and splits are back! woohoo!
 ![homer](homer.jpg)
 
-
 So, now try to think which files it would be good to have in a session...
 for example, all configuration files for your system
+
 - /etc/ntp.conf
 - /etc/password
 - /etc/groups
 - /etc/shadow
 - /etc/hosts
 - etc etc etc
-
 
 Today we learned how to open multiple splits and tabs in Vim, how to save these splits and tabs to a session and how to reopen that session at a later time.
 
