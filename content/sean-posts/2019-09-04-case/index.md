@@ -1,6 +1,6 @@
 ---
 title: "How to use 'case' statement in bash scripting"
-cover: "https://picsum.photos/id/23/2500/1000"
+cover: "https://picsum.photos/id/535/2500/1000"
 category: "Sysadmin"
 author: "Endless"
 date: "2019-09-04"
