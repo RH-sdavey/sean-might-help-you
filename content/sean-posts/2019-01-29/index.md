@@ -3,7 +3,7 @@ title: "Run shell commands in (or to) Vim directly"
 cover: "https://picsum.photos/id/1073/2500/1000"
 category: "sysadmin"
 author: "Endless"
-date: "2019-05-29"
+date: "2019-01-29"
 tags:
     - Sysadmin
     - Easy

@@ -2,7 +2,7 @@
 title: "How to work with tabs in VIM"
 category: "VIM"
 author: "Endless"
-date: "2019-08-01"
+date: "2019-04-01"
 tags:
     - Vim
     - Swhy

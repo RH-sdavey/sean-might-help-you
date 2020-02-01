@@ -3,7 +3,7 @@ title: "How to use 'pushd' and 'popd' statements in Bash scripting"
 cover: "https://picsum.photos/id/133/2500/1000"
 category: "Sysadmin"
 author: "Endless"
-date: "2019-09-05"
+date: "2019-10-05"
 tags:
     - Sysadmin
     - Easy
@@ -75,7 +75,7 @@ We used `pushd` to move around various directories in the filesystem, leaving "m
 
 #### Ok, why is it useful?
 
-As mentioned at the opening, sometimes when running a complicated script that needs a runtime configuration setting, you may need to create a tmp file in `/tmp` folder, then go to `/var` folder to set some variables etc etc... and to any other place in the system to make our script work properly... well, `pushd` and `popd` will take all the memory worries about where you , where you need to be etc. 
+As mentioned at the opening, sometimes when running a complicated script that needs a runtime configuration setting, you may need to create a tmp file in `/tmp` folder, then go to `/var` folder to set some variables etc etc... and to any other place in the system to make our script work properly... well, `pushd` and `popd` will take all the memory worries about where you were, where you need to be etc.
 
 More automation = less thinking = less mistakes!
 

@@ -3,7 +3,7 @@ title: "How to work with Sessions in Vim"
 cover: "https://picsum.photos/id/145/2500/1000"
 category: "sysadmin"
 author: "Endless"
-date: "2019-08-04"
+date: "2019-07-04"
 tags:
     - Sysadmin
     - Easy

@@ -3,7 +3,7 @@ title: "Lets create a script to get all user information, together"
 cover: "https://picsum.photos/id/41/2500/1000"
 category: "sysadmin"
 author: "Endless"
-date: "2019-08-03"
+date: "2019-06-03"
 tags:
     - Sysadmin
     - Medium
