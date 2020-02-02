@@ -1,4 +1,4 @@
-import React, { Component } from "components/Links/react";
+import React, { Component } from "react";
 import "./Links.css";
 
 class Links extends Component {
