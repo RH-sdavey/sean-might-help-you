@@ -8,7 +8,7 @@ class LinksPage extends Component {
     return (
       <div className="about-container">
         <Helmet title={`Links | ${config.siteTitle}`} />
-        <About />
+        <Links />
       </div>
     );
   }
